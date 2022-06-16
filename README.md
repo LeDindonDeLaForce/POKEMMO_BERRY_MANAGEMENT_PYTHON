@@ -33,7 +33,7 @@ Ensuite, créez votre propre utilisateur sur le SGBD en lui donnant les seuls ac
 
 
 ```
-### REMPLACEZ {USERNAME} ety {PASSWORD} par un num d'utilisateur et un mot de passe que vous aurez choisi au préalable
+### REMPLACEZ {USERNAME} et {PASSWORD} par un num d'utilisateur et un mot de passe que vous aurez choisi au préalable
 
 DROP TABLE IF EXISTS `PLANTATION_{USERNAME}`;
 CREATE TABLE `PLANTATION_{USERNAME}` (
